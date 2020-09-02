@@ -8,8 +8,8 @@ Frontend for ModelDB version 2
 
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
-nvm install 11.3.0
-nvm alias default 11.3.0
+nvm install 12.18.3
+nvm alias default 12.18.3
 nvm use default
 ```
 
