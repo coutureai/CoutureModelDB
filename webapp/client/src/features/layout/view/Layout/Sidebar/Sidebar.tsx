@@ -67,6 +67,7 @@ const Sidebar = React.memo((props: AllProps) => {
         </div>
       )}
       <div className={styles.additionalLinks}>
+        {/* TODO: Update this link to our own docs */}
         <LayoutLink
           isExternal={true}
           to="https://docs.verta.ai/"
@@ -77,11 +78,11 @@ const Sidebar = React.memo((props: AllProps) => {
         </LayoutLink>
         <LayoutLink
           isExternal={true}
-          to="https://www.verta.ai"
+          to="https://www.couture.ai"
           iconType="link"
           isCollapsed={isCollapsed}
         >
-          Verta.ai
+          Couture.ai
         </LayoutLink>
       </div>
       <div

@@ -25,7 +25,7 @@ import {
   reducer,
   loadProjectActionTypes,
 } from 'features/projects/store';
-import makeMountComponentWithPredefinedData from 'shared/utils/tests/makeMountComponentWithPredefinedData';
+import makeMountComponentWithPredefinedData from 'shared/utils/tests/integrations/makeMountComponentWithPredefinedData';
 
 import CompareModels, { ICompareModelsLocalProps } from '../CompareModels';
 import CompareModelsTable from '../CompareModelsTable/CompareModelsTable';

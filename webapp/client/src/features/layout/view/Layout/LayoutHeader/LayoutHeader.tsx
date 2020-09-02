@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { HeaderSearch } from 'features/highLevelSearch';
 import { IApplicationState } from 'setup/store/store';
 
-import logo from './images/Verta_logo.svg';
+import logo from './images/Couture_logo.jpg';
 import styles from './LayoutHeader.module.css';
 
 interface ILocalProps {
@@ -25,7 +25,7 @@ class LayoutHeader extends React.PureComponent<AllProps> {
       <header className={styles.header}>
         <div className={styles.logo}>
           <Link to={'/'}>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" width="200"/>
           </Link>
         </div>
         <div className={styles.highLevelSearch}>
